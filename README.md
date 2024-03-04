@@ -64,10 +64,10 @@ bin/kafka-console-consumer.sh --topic dbserver1.DataStreaming.weatherdata --boot
 My Kafka is recieving the data.<br>
 ![Screenshot 2024-03-03 195833](https://github.com/LeoMeng5223655/Streaming-Pipeline-Project/assets/131537129/c5f7344c-4ce6-4a55-bf46-2f52777b4077)
 
-A Json file was created to infrer Schema for my Spark Streaming later.
+A Json file was created to infrer Schema for my Spark Streaming later.[Check Script](https://github.com/LeoMeng5223655/Streaming-Pipeline-Project/blob/main/weather_schema.json)
 
 ### c.Spark and Hudi
-1). A python script was created to read a stream of data from Kafka, transform it, and then write the processed data to Apache Hudi, which in turn stores it on AWS S3.<br>
+1). A python script was created to read a stream of data from Kafka, transform it, and then write the processed data to Apache Hudi, which in turn stores it on AWS S3.[Check Script](https://github.com/LeoMeng5223655/Streaming-Pipeline-Project/blob/main/Spark_Trans.py)
 
 2). use Spark-submit for submitting the spark streaming app.<br>
 ```ruby
